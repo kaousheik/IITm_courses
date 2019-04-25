@@ -1,0 +1,22 @@
+S.No,Name / IC NO.,Function,Datasheet Links 
+1,sn74ls00n,Quadruple 2-Input Positive-NAND Gates,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls00.pdf
+2,sn74ls02n,Quadruple 2-Input Positive-NOR Gates,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls02.pdf
+3,sn74ls04n,Hex Inverters,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls04.pdf
+4,sn74ls07n,Hex Buffers and Drivers With Open-Collector High-Voltage Outputs,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls07.pdf
+5,sn74ls08n,Quadruple 2-Input Positive-AND Gates,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls08.pdf
+6,hd74ls14p,Hex Schmitt Trigger Inverters,http://product.ic114.com/PDF/H/rej03d0399_hd74ls14.pdf
+7,sn74ls32p,Quad 2 Input OR gate,https://www.alldatasheet.com/datasheet-pdf/pdf/12649/ONSEMI/SN74LS32.html
+8,sn74ls47n,BCD-TO-SEVEN-SEGMENT DECODERS,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls47.pdf
+9,HD74ls76ap,Dual J-K Flip-Flops (with Preset and Clear),https://www.renesas.com/cn/zh/doc/products/logic/001/rej03d0417_hd74ls76a.pdf
+10,sn74ls83n,4-Bit Binary Full Adder With Fast Carry,https://github.com/Ramzz25/EE2001/blob/master/Exp100/SN74LS83D.pdf
+11,sn74ls83d,4-Bit Binary Full Adder With Fast Carry,https://github.com/Ramzz25/EE2001/blob/master/Exp100/SN74LS83D.pdf
+12,sn74ls85n,4-BIT MAGNITUDE COMPARATORS,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls85.pdf
+13,HD74ls86p,QUADRUPLE 2-INPUT EXCLUSIVE-OR GATES,https://www.renesas.com/kr/en/doc/products/logic/001/rej03d0422_hd74ls86.pdf
+14,sn74ls153n,Dual 4X1-Multiplexers,https://github.com/Ramzz25/EE2001/blob/master/Exp100/sn74ls153.pdf
+15,sn74ls157p,Quadruple 2-1 Line Mux,http://www.ti.com/lit/ds/symlink/sn74ls157.pdf
+16,uln2003apg,7-ch Darlington Sink Driver,https://opencircuit.nl/ProductInfo/1000401/ULN2003APG-Datasheet.pdf
+17,NE555P,555 TImer IC ,http://www.ti.com/lit/ds/symlink/lm555.pdf
+,,,
+18,sn74ls245n,SNx4LS245 Octal Bus Transceivers With 3-State Outputs,http://www.ti.com/lit/ds/symlink/sn74ls245.pdf
+19,sn74ls163n,syncronus 4-bit counters,https://www.datasheets360.com/pdf/-9191457853223779939
+20,sn74ls74n,Dual D Flip-Flops,https://www.digchip.com/datasheets/parts/datasheet/311/SN74LS74N-pdf.php

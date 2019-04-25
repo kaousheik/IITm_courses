@@ -1,0 +1,79 @@
+$date
+	Tue Feb  5 14:03:40 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_mux $end
+$var wire 1 ! out2 $end
+$var wire 1 " out1 $end
+$var reg 4 # I [3:0] $end
+$var reg 2 $ s [1:0] $end
+$scope module DUT $end
+$var wire 4 % I [3:0] $end
+$var wire 2 & s [1:0] $end
+$var wire 1 ! out $end
+$upscope $end
+$scope module DUT1 $end
+$var wire 4 ' I [3:0] $end
+$var wire 2 ( s [1:0] $end
+$var reg 1 " out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+x"
+x!
+$end
+#10
+1!
+1"
+b0 $
+b0 &
+b0 (
+b1 #
+b1 %
+b1 '
+#20
+b1 $
+b1 &
+b1 (
+b10 #
+b10 %
+b10 '
+#30
+0!
+0"
+b10 $
+b10 &
+b10 (
+b11 #
+b11 %
+b11 '
+#40
+b11 $
+b11 &
+b11 (
+b100 #
+b100 %
+b100 '
+#50
+1!
+1"
+b0 $
+b0 &
+b0 (
+b111 #
+b111 %
+b111 '
+#60

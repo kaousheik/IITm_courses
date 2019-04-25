@@ -1,0 +1,19 @@
+http://www.ti.com/logic-circuit/products.html#p1512=LS&o4=ACTIVE
+
+Filter by keyword "SN74LS"
+
+Download as excel
+
+Read CSV : https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+
+Calling External Command in Python :
+https://stackoverflow.com/questions/89228/calling-an-external-command-in-python?rq=1
+https://docs.python.org/3/library/os.html#os.system
+
+Using Wget to get datasheets
+
+FORM : http://www.ti.com/lit/ds/symlink/sn74ls**.pdf
+
+TTL logic databook
+TI: https://ia801901.us.archive.org/4/items/bitsavers_tidataBookrdTTLSLSDataBook_39061488/1988_TTL_Logic_Standard_TTL_S_LS_Data_Book.pdf
+ON : https://ecee.colorado.edu/~mcclurel/ON_Semiconductor_LSTTL_Data_DL121-D.pdf

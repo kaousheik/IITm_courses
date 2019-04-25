@@ -1,0 +1,40 @@
+$date
+	Mon Jan 28 15:52:54 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_ha $end
+$var wire 1 ! s $end
+$var wire 1 " c $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module DUT $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " carry $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+1#
+1"
+0!
+$end
+#10
+1!
+0"
+0$
+#20
+1$
+0#
+#30
+0!
+0$
+#40

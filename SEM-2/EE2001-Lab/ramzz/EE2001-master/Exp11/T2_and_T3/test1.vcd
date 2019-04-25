@@ -1,0 +1,71 @@
+$date
+	Tue Feb  5 14:04:25 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_demux $end
+$var wire 4 ! out2 [3:0] $end
+$var wire 4 " out1 [3:0] $end
+$var reg 1 # I $end
+$var reg 2 $ s [1:0] $end
+$scope module DUT $end
+$var wire 1 # I $end
+$var wire 2 % s [1:0] $end
+$var reg 4 & out [3:0] $end
+$upscope $end
+$scope module DUT1 $end
+$var wire 1 # I $end
+$var wire 2 ' s [1:0] $end
+$var wire 4 ( out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+x#
+bx "
+bx !
+$end
+#10
+b1 !
+b1 (
+b1 "
+b1 &
+b0 $
+b0 %
+b0 '
+1#
+#20
+b10 "
+b10 &
+b10 !
+b10 (
+b1 $
+b1 %
+b1 '
+#30
+b100 !
+b100 (
+b100 "
+b100 &
+b10 $
+b10 %
+b10 '
+#40
+b1000 !
+b1000 (
+b1000 "
+b1000 &
+b11 $
+b11 %
+b11 '
+#50
