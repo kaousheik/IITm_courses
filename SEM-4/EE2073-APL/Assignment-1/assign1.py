@@ -1,4 +1,6 @@
-filename = input("Enter the File Name : ")
+#Have to give argument in the terminal 
+import sys
+filename = sys.argv[1]
 try:
     f = open(filename)
 except:
