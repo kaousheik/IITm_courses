@@ -2,6 +2,15 @@ from assign1 import *
 import sys
 import numpy as np
 
+def par_value(l):
+    pos = l[-1].find('e')
+    if(pos!=-1):
+        v1 = int(l[-1][:pos])
+        v2 = int(l[-1][pos+1:])
+        return v1*(10**v2)
+    else:
+        return int(l[-1])
+
 class component:
 
     def __init__(self,l):
@@ -31,8 +40,11 @@ if(l[0]):
     print(data)
     print()
     class_list = []
-    for j in data:
-        class_list.append(component(j))
+    for j in range(len(data)):
+        data[j][-1] = par_value(data[j])
+        class_list.append(component(data[j]))
 
     print(class_list[0].nodes)
+    print()
+    print(data)
     
