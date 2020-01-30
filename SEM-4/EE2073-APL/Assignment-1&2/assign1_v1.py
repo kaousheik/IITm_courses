@@ -19,7 +19,6 @@ data = []
 if(('.circuit' in l) and ('.end' in l) ):                   #check if '.circuit' and '.end' is present in the file or not
     for i in l:
         arr.append(i.split(' '))
-
     arr_n = arr[::-1]                                       #reveres the list of lines
     chk = True
     start = False
@@ -32,12 +31,13 @@ if(('.circuit' in l) and ('.end' in l) ):                   #check if '.circuit'
         if(arr_n[i][0] == '.circuit'):
             chk = False
             break
+
         if(start):
             data.append([])
             temp = list(reversed(arr_n[i]))                 #printing lines in a reversed manner
             end = len(temp)
             for l in range(len(temp)):
-                if(arr_n[i][l]=='' or arr_n[i][l]==' '):
+                if(arr_n[i][l]=='' or arr_n[i][l]==' ' or arr_n[i][l]=='#'):
                     end = l
                     break
             for j in range(len(temp)-end,len(temp)):
