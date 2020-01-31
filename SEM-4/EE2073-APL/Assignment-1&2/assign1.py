@@ -22,10 +22,8 @@ def create_list(filename):
         start = False
         i = 0
         while(chk):
-            if(arr_n[i][0] == '.end'):
+            if(arr_n[i][0] == '.ac' or arr_n[i][0] == '.end'):
                 start = True
-                i += 1
-                continue
             if(arr_n[i][0] == '.circuit'):
                 chk = False
                 break
