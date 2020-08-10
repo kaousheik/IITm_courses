@@ -93,7 +93,7 @@ class source:
         self.type = l[3]
         if(self.type=='ac'):
             self.value = (par_value([l[4]]))/2
-            self.phase = float(l[5])*(np.pi)*(180)
+            self.phase = (float(l[5])*(np.pi))/(180)
         else:
             self.value = par_value([l[4]])
             self.phase = 'na'
